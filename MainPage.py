@@ -61,7 +61,7 @@ class MainWindow(QWidget): #绝对定位布局
         self.historyListBtn.clicked.connect(self.jump2History)
         self.rankingListBtn.clicked.connect(self.jump2Ranking)
     def jump2History(self):
-        self.hisWin=history.History()
+        self.hisWin=history.History(self.token)
         self.hisWin.show()
 
     def jump2Ranking(self):

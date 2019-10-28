@@ -19,7 +19,7 @@ class StartWin(Ui_Form,QWidget):
     def initUi(self):
         self.login_passwd.setEchoMode(QLineEdit.Password)#密码框隐藏 PasswordEchoOnEdit Password
         self.login_userName.setText('SheepHuan')
-        self.login_passwd.setText('GoodJob')
+        self.login_passwd.setText('yanghuan')
         self.login_userName.setFont(QFont('Cosolas',14))
         self.login_passwd.setFont(QFont('Cosolas', 14))
         self.SI_userName.setFont(QFont('Cosolas', 14))

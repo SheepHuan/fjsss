@@ -12,6 +12,7 @@ class RankList(QWidget):
     def __init__(self):
         super(RankList,self).__init__()
         self.setWindowTitle('排行榜')
+        self.resize(600,800)
         url = 'http://api.revth.com/rank'
         re = requests.get(url)
         self.rank_json = json.loads(re.text)
