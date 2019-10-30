@@ -47,8 +47,10 @@ class RankList(QWidget):
             self.rankingList.setItem(1+self.rank_json.index(i),1,self.tableAddItem(str(i["player_id"])))
             self.rankingList.setItem(1 + self.rank_json.index(i), 2, self.tableAddItem(i["name"]))
             self.rankingList.setItem(1 + self.rank_json.index(i),3, self.tableAddItem(str(i["score"])))
+def xxx():
+    url = 'http://api.revth.com/rank'
+    re = requests.get(url)
+    rank_json = json.loads(re.text)
+    print(rank_json)
 if __name__=="__main__":
-    app = QApplication(sys.argv)
-    demo = RankList()
-    demo.show()
-    sys.exit(app.exec_())
+    xxx()
