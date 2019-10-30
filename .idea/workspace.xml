@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6d7d74c-3404-43f1-9f3b-cc3a0bf8375b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkServer.py" afterDir="false" />
-    </list>
+    <list default="true" id="a6d7d74c-3404-43f1-9f3b-cc3a0bf8375b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,14 +10,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/history.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="269" column="59" lean-forward="true" selection-start-line="259" selection-start-column="11" selection-end-line="269" selection-end-column="59" />
+            <state relative-caret-position="19">
+              <caret line="270" column="12" lean-forward="true" selection-start-line="270" selection-start-column="12" selection-end-line="270" selection-end-column="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -84,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ranking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="17" column="44" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="35">
+              <caret line="29" column="85" lean-forward="true" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -146,9 +153,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1102" />
-    <option name="y" value="124" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="172" />
+    <option name="y" value="-30" />
     <option name="width" value="1258" />
     <option name="height" value="1047" />
   </component>
@@ -192,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LoginWin">
+  <component name="RunManager" selected="Python.ranking">
     <configuration name="LoginPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fjsss" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -305,8 +312,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.LoginWin" />
         <item itemvalue="Python.ranking" />
+        <item itemvalue="Python.LoginWin" />
         <item itemvalue="Python.LoginPage" />
         <item itemvalue="Python.history" />
         <item itemvalue="Python.MainPage" />
@@ -340,12 +347,12 @@
       <workItem from="1572169484352" duration="2365000" />
       <workItem from="1572262701072" duration="16624000" />
       <workItem from="1572362255254" duration="778000" />
-      <workItem from="1572424191729" duration="1021000" />
+      <workItem from="1572424191729" duration="1774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129029000" />
+    <option name="totallyTimeSpent" value="129782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,9 +364,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1027" y="169" width="1258" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33222038" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21215352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -373,7 +381,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5388828" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14316703" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.4284165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -433,7 +441,7 @@
     <SUITE FILE_PATH="coverage/fjsss$history.coverage" NAME="history Coverage Results" MODIFIED="1570758283615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fjsss$LoginPage.coverage" NAME="LoginPage Coverage Results" MODIFIED="1570758486426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fjsss$Game.coverage" NAME="Game Coverage Results" MODIFIED="1570756377918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fjsss$ranking.coverage" NAME="ranking Coverage Results" MODIFIED="1570961351339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fjsss$ranking.coverage" NAME="ranking Coverage Results" MODIFIED="1572427490017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fjsss$MainPage.coverage" NAME="MainPage Coverage Results" MODIFIED="1570757411021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fjsss$test.coverage" NAME="test Coverage Results" MODIFIED="1569857821002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fjsss$LoginWin.coverage" NAME="LoginWin Coverage Results" MODIFIED="1572333434959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -621,20 +629,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ranking.py">
+    <entry file="file://$PROJECT_DIR$/history.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="19">
+          <caret line="270" column="12" lean-forward="true" selection-start-line="270" selection-start-column="12" selection-end-line="270" selection-end-column="12" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/history.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ranking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="269" column="59" lean-forward="true" selection-start-line="259" selection-start-column="11" selection-end-line="269" selection-end-column="59" />
+        <state relative-caret-position="35">
+          <caret line="29" column="85" lean-forward="true" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
