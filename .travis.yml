@@ -3,7 +3,9 @@ python:
     - "3.6"
 install:
     - pip install -r requirements.txt
+    - pip install codecov
 script: 
     - python ranking.py
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+    - codecov
+    - bash <(curl -s https://codecov.io/bash) -t 1debe874-24bb-4615-9f3b-ddf1f751d315
