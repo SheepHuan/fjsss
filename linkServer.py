@@ -70,7 +70,7 @@ class LoginAccount():
             "Content-Type": 'application/json',
             "User-Agent": 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Mobile Safari/537.36'
         }
-        response = requests.post('http://api.revth.com/auth/register', json.dumps(account), headers=headers)
+        response = requests.post('http://api.revth.com/auth/register2', json.dumps(account), headers=headers)
         reData = json.loads(response.text)
         print(reData)
         if reData["data"]["msg"] == "Success":

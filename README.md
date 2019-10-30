@@ -1,18 +1,27 @@
-# 介绍
+# 福建十三水
 
 本项目是由纯python编写的福建十三水游戏。
 
-## 一、游戏规则介绍
+[![GitHub forks](https://img.shields.io/github/forks/SheepHuan/fjsss)](https://github.com/SheepHuan/fjsss/network)
+
+## 运行环境
+
+操作系统： windows或者Linux ; python 3 ；模块依赖参照requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
 
 
 
-## 二、文档
+## 编译与运行
 
-### [1.后端接口文档地址](http://docs.shisanshui.rtxux.xyz/apis/auth/postauthlogin)
+安装完依赖可直接运行根目录下LoginWin.py
 
-### 2.前端介绍
+```
+python LoginWin.py
+```
 
-#### (1)登陆和注册
 
-登陆和注册页面合并，第一次登陆将会自动注册
 
+## 注意事项

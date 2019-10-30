@@ -1,0 +1,4 @@
+requests==2.21.0
+PyExecJS==1.5.1
+pygame==1.9.6
+PyQt5==5.13.1
