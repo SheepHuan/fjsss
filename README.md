@@ -2,7 +2,7 @@
 
 本项目是由纯python编写的福建十三水游戏。
 
-[![GitHub forks](https://img.shields.io/github/forks/SheepHuan/fjsss)](https://github.com/SheepHuan/fjsss/network)
+[![GitHub forks](https://img.shields.io/github/forks/SheepHuan/fjsss)](https://github.com/SheepHuan/fjsss/network)[![Build Status](https://travis-ci.org/SheepHuan/fjsss.svg?branch=master)](https://travis-ci.org/SheepHuan/fjsss)
 
 ## 运行环境
 
