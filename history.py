@@ -122,7 +122,6 @@ class detailWin(QWidget):
                 w = QWidget()
                 w.setLayout(pokeLayout)
                 try:
-                    print(i)
                     self.historyDetailList[i].setCellWidget(0, 2, w)
 
                 except Exception as e :

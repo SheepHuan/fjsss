@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QApplication, QWidget,QMainWindow,QLabel,QPushButton
 from PyQt5.QtGui import QMovie,QPixmap,QCursor,QPalette,QBrush,QFont,QIcon
 from PyQt5 import QtCore
 import linkServer
-
+import execjs
 POKE_SIZE=(50,68)
 
 class Room(QWidget):
@@ -120,15 +120,15 @@ class Room(QWidget):
                 except Exception as e:
                     print(e)
                 #出牌
-            card=[]
-            one=self.mypokes[0]+' '+self.mypokes[1]+' '+self.mypokes[2]
-            two=self.mypokes[3]+' '+self.mypokes[4]+' '+self.mypokes[5]+' '+self.mypokes[6]+' '+self.mypokes[7]
-            three=self.mypokes[8]+' '+self.mypokes[9]+' '+self.mypokes[10]+' '+self.mypokes[11]+' '+self.mypokes[12]
-            card.append(one)
-            card.append(two)
-            card.append(three)
-            print(card)
-            self.server.submitPoke(self.userInfo["token"],card)
+            # card=[]
+            # one=self.mypokes[0]+' '+self.mypokes[1]+' '+self.mypokes[2]
+            # two=self.mypokes[3]+' '+self.mypokes[4]+' '+self.mypokes[5]+' '+self.mypokes[6]+' '+self.mypokes[7]
+            # three=self.mypokes[8]+' '+self.mypokes[9]+' '+self.mypokes[10]+' '+self.mypokes[11]+' '+self.mypokes[12]
+            # card.append(one)
+            # card.append(two)
+            # card.append(three)
+            # print(card)
+            self.server.submitPoke(self.userInfo["token"],self.mypokes)
         except Exception as e:
             print('Game/startgame',e)
 
